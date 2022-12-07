@@ -2,7 +2,7 @@
 /**
  * UnCancelOrder
  */
-namespace Born\UnCancelOrder\Model;
+namespace Asyr\UnCancelOrder\Model;
 
 use \Magento\Sales\Model\Order as SalesOrder;
 
