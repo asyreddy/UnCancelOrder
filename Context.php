@@ -2,7 +2,7 @@
 /**
  * UnCancelOrder
  */
-namespace Born\UnCancelOrder\Plugin\Block\Widget;
+namespace Asyr\UnCancelOrder\Plugin\Block\Widget;
 
 use Magento\Framework\UrlInterface;
 
