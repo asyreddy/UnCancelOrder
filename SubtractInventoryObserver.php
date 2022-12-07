@@ -2,7 +2,7 @@
 /**
  * UnCancelOrder
  */
-namespace Born\UnCancelOrder\Observer;
+namespace Asyr\UnCancelOrder\Observer;
 
 use \Magento\Framework\Event\ObserverInterface;
 use \Magento\CatalogInventory\Api\StockManagementInterface;
