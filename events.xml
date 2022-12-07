@@ -6,6 +6,6 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="sales_order_uncancel_inventory">
-        <observer name="inventory" instance="Born\UnCancelOrder\Observer\SubtractInventoryObserver"/>
+        <observer name="inventory" instance="Asyr\UnCancelOrder\Observer\SubtractInventoryObserver"/>
     </event>
 </config>
