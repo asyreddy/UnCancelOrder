@@ -2,18 +2,18 @@
 /**
  * UnCancelOrder
  */
-namespace Born\UnCancelOrder\Controller\Adminhtml\Order;
+namespace Asyr\UnCancelOrder\Controller\Adminhtml\Order;
 
 use Magento\Backend\App\Action;
 use \Magento\Backend\App\Action\Context;
-use \Born\UnCancelOrder\Model\OrderFactory;
+use \Asyr\UnCancelOrder\Model\OrderFactory;
 
 class Uncancel extends Action
 {
     /**
-     * Born Extended Order factory
+     * Asyr Extended Order factory
      *
-     * @var \Born\UnCancelOrder\Model\OrderFactory
+     * @var \Asyr\UnCancelOrder\Model\OrderFactory
      */
     protected $demoFactory;
 
@@ -21,7 +21,7 @@ class Uncancel extends Action
      * Initialize Group Controller
      *
      * @param \Magento\Backend\App\Action\Context $context
-     * @param \Born\UnCancelOrder\Model\OrderFactory $orderFactory
+     * @param \Asyr\UnCancelOrder\Model\OrderFactory $orderFactory
      */
     public function __construct(
         Context $context,
@@ -36,7 +36,7 @@ class Uncancel extends Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Born_UnCancelOrder::uncancel');
+        return $this->_authorization->isAllowed('Asyr_UnCancelOrder::uncancel');
     }
 
     /**
