@@ -57,7 +57,7 @@ class Context
                 $buttonList->add(
                     'order_uncancel',
                     [
-                        'label' => __('Un-Cancel'),
+                        'label' => __('UnCancel'),
                         'onclick' => "confirmSetLocation('{$message}', '".$this->getUnCancelUrl()."')",
                     ]
                 );
