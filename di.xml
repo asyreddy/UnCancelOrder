@@ -6,6 +6,6 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="\Magento\Backend\Block\Widget\Context">
-        <plugin name="uncancel_button_sales_view" type="Born\UnCancelOrder\Plugin\Block\Widget\Context"  sortOrder="1" />
+        <plugin name="uncancel_button_sales_view" type="Asyr\UnCancelOrder\Plugin\Block\Widget\Context"  sortOrder="1" />
     </type>
 </config>
